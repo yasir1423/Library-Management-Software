@@ -1,0 +1,3343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" rowspan="2">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 85, 127);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resource.qrc">:/images/open-book.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="dashboard_btn_1">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/menu (2).png</normaloff>:/images/menu (2).png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="books_btn_1">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/stack-of-books.png</normaloff>:/images/stack-of-books.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="returned_btn_1">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/return.png</normaloff>:/images/return.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="borrowed_btn_1">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/book.png</normaloff>:/images/book.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="fines_btn_1">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/penalty.png</normaloff>:/images/penalty.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="transaction_btn_1">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/Webiconset-E-Commerce-Secure-payment.128.png</normaloff>:/images/Webiconset-E-Commerce-Secure-payment.128.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>46</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="styleSheet">
+          <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/images/logout.png</normaloff>:/images/logout.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="2">
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 85, 127);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="maximumSize">
+            <size>
+             <width>65</width>
+             <height>65</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resource.qrc">:/images/open-book.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">font: 600 18pt &quot;Segoe UI&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Library</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QPushButton" name="dashboard_btn_2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string>Dashboard</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/menu (2).png</normaloff>:/images/menu (2).png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="books_btn_2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string>Books</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/stack-of-books.png</normaloff>:/images/stack-of-books.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="returned_btn_2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string>Returned</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/return.png</normaloff>:/images/return.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="borrowed_btn_2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string>Borrowed</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/book.png</normaloff>:/images/book.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="fines_btn_2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string>Fines</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/penalty.png</normaloff>:/images/penalty.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="transaction_btn_2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string>Transactions</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/Webiconset-E-Commerce-Secure-payment.128.png</normaloff>:/images/Webiconset-E-Commerce-Secure-payment.128.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>139</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_12">
+         <property name="styleSheet">
+          <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+         </property>
+         <property name="text">
+          <string>Log out</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/images/logout.png</normaloff>:/images/logout.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 85, 127);</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/menu (1).png</normaloff>:/images/menu (1).png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="styleSheet">
+              <string notr="true">font: 600 italic 14pt &quot;Segoe UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Hello, Yasir</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="styleSheet">
+              <string notr="true">font: 350 italic 10pt &quot;Segoe UI&quot;;</string>
+             </property>
+             <property name="text">
+              <string>Welcome to your Library</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="styleSheet">
+            <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource.qrc">
+             <normaloff>:/images/search (2).png</normaloff>:/images/search (2).png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+           </property>
+           <property name="placeholderText">
+            <string>Search here</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="maximumSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resource.qrc">:/images/profile.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 85, 127);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_14">
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page">
+          <layout class="QVBoxLayout" name="verticalLayout_35">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_34">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_29">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_42">
+                 <item>
+                  <widget class="QLabel" name="label_48">
+                   <property name="maximumSize">
+                    <size>
+                     <width>65</width>
+                     <height>65</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="resource.qrc">:/images/fine (1).png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_49">
+                   <property name="styleSheet">
+                    <string notr="true">font: 600 italic 20pt &quot;Segoe UI&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>Fines</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_50">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Welcome you at Fines Page</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_32">
+               <item>
+                <widget class="QLabel" name="label_51">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 18pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Add a New Fine</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_52">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_31">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_43">
+                     <item>
+                      <widget class="QLabel" name="label_52">
+                       <property name="text">
+                        <string>Fine_No:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="fine_line_1">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_44">
+                     <item>
+                      <widget class="QLabel" name="label_53">
+                       <property name="text">
+                        <string>Student_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="fine_line_2">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_45">
+                     <item>
+                      <widget class="QLabel" name="label_54">
+                       <property name="text">
+                        <string>Student_Name:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="fine_line_3">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_46">
+                     <item>
+                      <widget class="QLabel" name="label_55">
+                       <property name="text">
+                        <string>Borrowed_Book:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="fine_line_4">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_47">
+                     <item>
+                      <widget class="QLabel" name="label_56">
+                       <property name="text">
+                        <string>Book_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="fine_line_5">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_30">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_49">
+                     <item>
+                      <widget class="QLabel" name="label_57">
+                       <property name="text">
+                        <string>Amount:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="fine_line_6">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_51">
+                     <item>
+                      <widget class="QLabel" name="label_58">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>Status:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QComboBox" name="fine_line_7">
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+                       </property>
+                       <item>
+                        <property name="text">
+                         <string>Select  Fine Payment Status</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text">
+                         <string>Paid</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text">
+                         <string>Pending</string>
+                        </property>
+                       </item>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_50">
+                     <item>
+                      <widget class="QLabel" name="label_59">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>Reason:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QComboBox" name="fine_line_8">
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+                       </property>
+                       <item>
+                        <property name="text">
+                         <string>Select reason for fine</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text">
+                         <string>Late returned</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text">
+                         <string>Not returned(Lost)</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text">
+                         <string>Page was tore</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text">
+                         <string>Other reason</string>
+                        </property>
+                       </item>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_48">
+                     <item>
+                      <widget class="QLabel" name="label_60">
+                       <property name="text">
+                        <string>Remarks:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="fine_line_9">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_53">
+               <item>
+                <widget class="QPushButton" name="add_fine_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Add Fine</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/plus-symbol-button.png</normaloff>:/images/plus-symbol-button.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="add_fines_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>View Fines</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/vecteezy_an-open-eye-icon-isolated_55810413.png</normaloff>:/images/vecteezy_an-open-eye-icon-isolated_55810413.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="remove_fine_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: red; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Remove Fine</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/delete.png</normaloff>:/images/delete.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_33">
+               <item>
+                <widget class="QLineEdit" name="borrow_line_17">
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Search Fines using Fine_No</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="borrow_books_table_2">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 85, 127);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_6">
+          <layout class="QVBoxLayout" name="verticalLayout_40">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_39">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_36">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_54">
+                 <item>
+                  <widget class="QLabel" name="label_61">
+                   <property name="maximumSize">
+                    <size>
+                     <width>65</width>
+                     <height>65</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="resource.qrc">:/images/Webiconset-E-Commerce-Secure-payment.128.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_62">
+                   <property name="styleSheet">
+                    <string notr="true">font: 600 italic 20pt &quot;Segoe UI&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>Transactions</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_63">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Welcome you at Transaction Page</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_37">
+               <item>
+                <widget class="QLabel" name="label_64">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 18pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Add a New Transaction</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_55">
+                 <item>
+                  <widget class="QLabel" name="label_65">
+                   <property name="text">
+                    <string>Transaction_ID:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="transaction_line_1">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_56">
+                 <item>
+                  <widget class="QLabel" name="label_66">
+                   <property name="text">
+                    <string>From_Account:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="transaction_line_2">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_57">
+                 <item>
+                  <widget class="QLabel" name="label_67">
+                   <property name="text">
+                    <string>To_Account:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="transaction_line_3">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_59">
+                 <item>
+                  <widget class="QLabel" name="label_68">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>Amount:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_2">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_58">
+                 <item>
+                  <widget class="QLabel" name="label_69">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>Transaction_For:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="transaction_line_5">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Select reason for transaction</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Fine </string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Other</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_60">
+               <item>
+                <widget class="QPushButton" name="add_transaction_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Add Transaction</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/plus (2).png</normaloff>:/images/plus (2).png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="view_transaction_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>View Transactions</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/vecteezy_eye-3d-rendering-icon-illustration_28203822.png</normaloff>:/images/vecteezy_eye-3d-rendering-icon-illustration_28203822.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="remove_transaction_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: red; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Remove Transaction</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/minus.png</normaloff>:/images/minus.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_38">
+               <item>
+                <widget class="QLineEdit" name="transaction_table_search">
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Search Transactio using Transaction_ID</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="transaction_table">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 85, 127);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <layout class="QVBoxLayout" name="verticalLayout_44">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_43">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_41">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_61">
+                 <item>
+                  <widget class="QLabel" name="label_70">
+                   <property name="maximumSize">
+                    <size>
+                     <width>65</width>
+                     <height>65</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="resource.qrc">:/images/menu (2).png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_71">
+                   <property name="styleSheet">
+                    <string notr="true">font: 600 italic 20pt &quot;Segoe UI&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>Dashboard</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_72">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Welcome you at Dashboard</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_42">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_63">
+                 <item>
+                  <widget class="QPushButton" name="show_books_btn">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                   </property>
+                   <property name="text">
+                    <string> Show Books</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resource.qrc">
+                     <normaloff>:/images/stack-of-books.png</normaloff>:/images/stack-of-books.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="how_returned_btn">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                   </property>
+                   <property name="text">
+                    <string> Show Returned</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resource.qrc">
+                     <normaloff>:/images/return.png</normaloff>:/images/return.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="show_borrowed_btn">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                   </property>
+                   <property name="text">
+                    <string>Show Borrowed</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resource.qrc">
+                     <normaloff>:/images/book.png</normaloff>:/images/book.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_62">
+                 <item>
+                  <widget class="QPushButton" name="show_fines_btn">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                   </property>
+                   <property name="text">
+                    <string>Show Fines</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resource.qrc">
+                     <normaloff>:/images/penalty.png</normaloff>:/images/penalty.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="show_transaction_btn">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton { 
+background-color: #2D89EF; 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                   </property>
+                   <property name="text">
+                    <string>Show Transactions</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="resource.qrc">
+                     <normaloff>:/images/Webiconset-E-Commerce-Secure-payment.128.png</normaloff>:/images/Webiconset-E-Commerce-Secure-payment.128.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>20</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="dashboard_table">
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 85, 127);</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_3">
+          <layout class="QVBoxLayout" name="verticalLayout_13">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_12">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                 <item>
+                  <widget class="QLabel" name="label_7">
+                   <property name="maximumSize">
+                    <size>
+                     <width>65</width>
+                     <height>65</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="resource.qrc">:/images/stack-of-books.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_8">
+                   <property name="styleSheet">
+                    <string notr="true">font: 600 italic 20pt &quot;Segoe UI&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>Books</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_9">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Welcome you at Books Page</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QLabel" name="label_10">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 18pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Add a New Book</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_15">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_9">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                     <item>
+                      <widget class="QLabel" name="label_11">
+                       <property name="text">
+                        <string>Book_Name:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_1">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_6">
+                     <item>
+                      <widget class="QLabel" name="label_12">
+                       <property name="text">
+                        <string>Book_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_2">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                       <property name="placeholderText">
+                        <string>100001 etc.</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_14">
+                     <item>
+                      <widget class="QLabel" name="label_13">
+                       <property name="text">
+                        <string>Book_Type:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_3">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                       <property name="placeholderText">
+                        <string>Fiction, Poetry etc.</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_7">
+                     <item>
+                      <widget class="QLabel" name="label_14">
+                       <property name="text">
+                        <string>Author:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_4">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_8">
+                     <item>
+                      <widget class="QLabel" name="label_15">
+                       <property name="text">
+                        <string>Publisher:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_5">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_8">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_9">
+                     <item>
+                      <widget class="QLabel" name="label_18">
+                       <property name="text">
+                        <string>Copies:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_6">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_10">
+                     <item>
+                      <widget class="QLabel" name="label_19">
+                       <property name="text">
+                        <string>Price:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_7">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_11">
+                     <item>
+                      <widget class="QLabel" name="label_16">
+                       <property name="text">
+                        <string>Date:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_8">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_12">
+                     <item>
+                      <widget class="QLabel" name="label_17">
+                       <property name="text">
+                        <string>Time:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_9">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_13">
+                     <item>
+                      <widget class="QLabel" name="label_20">
+                       <property name="text">
+                        <string>Remarks:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="books_line_10">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_16">
+               <item>
+                <widget class="QPushButton" name="add_book_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Add Book</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/plus (2).png</normaloff>:/images/plus (2).png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="View_books_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>View Books</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/Basic_Ui_(9).jpg</normaloff>:/images/Basic_Ui_(9).jpg</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="remove_book_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: red; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Remove Book</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/minus.png</normaloff>:/images/minus.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_11">
+               <item>
+                <widget class="QLineEdit" name="books_table_search">
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Search Book using Book_ID</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="books_table">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(0, 0, 0);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_4">
+          <layout class="QVBoxLayout" name="verticalLayout_21">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_20">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_19">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_17">
+                 <item>
+                  <widget class="QLabel" name="label_21">
+                   <property name="maximumSize">
+                    <size>
+                     <width>65</width>
+                     <height>65</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="resource.qrc">:/images/literacy (1).png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_22">
+                   <property name="styleSheet">
+                    <string notr="true">font: 600 italic 20pt &quot;Segoe UI&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>Returned Books</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_23">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Welcome you at Books Returning Page</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_17">
+               <item>
+                <widget class="QLabel" name="label_24">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 18pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Add a New Book Rerurn Record</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_28">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_16">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_18">
+                     <item>
+                      <widget class="QLabel" name="label_28">
+                       <property name="text">
+                        <string>Return_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_1">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                       <property name="placeholderText">
+                        <string>10001 etc.</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_19">
+                     <item>
+                      <widget class="QLabel" name="label_25">
+                       <property name="text">
+                        <string>Book_Name:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_2">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_20">
+                     <item>
+                      <widget class="QLabel" name="label_27">
+                       <property name="text">
+                        <string>Book_Type:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_3">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                       <property name="placeholderText">
+                        <string>Fiction, Noval etc</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_21">
+                     <item>
+                      <widget class="QLabel" name="label_33">
+                       <property name="text">
+                        <string>Student_Name:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_4">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_22">
+                     <item>
+                      <widget class="QLabel" name="label_34">
+                       <property name="text">
+                        <string>Student_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_5">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_15">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_23">
+                     <item>
+                      <widget class="QLabel" name="label_26">
+                       <property name="text">
+                        <string>Book_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_6">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_24">
+                     <item>
+                      <widget class="QLabel" name="label_29">
+                       <property name="text">
+                        <string>Received By:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_7">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_25">
+                     <item>
+                      <widget class="QLabel" name="label_30">
+                       <property name="text">
+                        <string>Borrow_Date:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_8">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_26">
+                     <item>
+                      <widget class="QLabel" name="label_31">
+                       <property name="text">
+                        <string>Return_Date:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_9">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_27">
+                     <item>
+                      <widget class="QLabel" name="label_32">
+                       <property name="text">
+                        <string>Remarks:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="return_line_10">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_29">
+               <item>
+                <widget class="QPushButton" name="add_record_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Add Record</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/plus-symbol-button.png</normaloff>:/images/plus-symbol-button.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="view_returns_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>View Returns</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/vecteezy_an-open-eye-icon-isolated_55810413.png</normaloff>:/images/vecteezy_an-open-eye-icon-isolated_55810413.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="remove_record_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: red; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Remove Record</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/delete.png</normaloff>:/images/delete.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_18">
+               <item>
+                <widget class="QLineEdit" name="return_table_search">
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Search returns using Return_ID</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="return_books_table">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 85, 127);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_5">
+          <layout class="QVBoxLayout" name="verticalLayout_28">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_27">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_22">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_30">
+                 <item>
+                  <widget class="QLabel" name="label_35">
+                   <property name="maximumSize">
+                    <size>
+                     <width>65</width>
+                     <height>65</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="resource.qrc">:/images/literacy.png</pixmap>
+                   </property>
+                   <property name="scaledContents">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_36">
+                   <property name="styleSheet">
+                    <string notr="true">font: 600 italic 20pt &quot;Segoe UI&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>Borrowed Books</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_37">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 12pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Welcome you at Books Borrowing Page</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_25">
+               <item>
+                <widget class="QLabel" name="label_38">
+                 <property name="styleSheet">
+                  <string notr="true">font: 600 italic 18pt &quot;Segoe UI&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>Add a New Book Borrow Record</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_40">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_23">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_39">
+                     <item>
+                      <widget class="QLabel" name="label_39">
+                       <property name="text">
+                        <string>Borrow_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_1">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_38">
+                     <item>
+                      <widget class="QLabel" name="label_40">
+                       <property name="text">
+                        <string>Student_Name:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_2">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_37">
+                     <item>
+                      <widget class="QLabel" name="label_41">
+                       <property name="text">
+                        <string>Student_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_3">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_36">
+                     <item>
+                      <widget class="QLabel" name="label_42">
+                       <property name="text">
+                        <string>Book_Name:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_4">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_34">
+                     <item>
+                      <widget class="QLabel" name="label_47">
+                       <property name="text">
+                        <string>Remarks:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_5">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_24">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_31">
+                     <item>
+                      <widget class="QLabel" name="label_44">
+                       <property name="text">
+                        <string>Borrow_Date:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_6">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_32">
+                     <item>
+                      <widget class="QLabel" name="label_45">
+                       <property name="text">
+                        <string>Return_Date:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_7">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_33">
+                     <item>
+                      <widget class="QLabel" name="label_46">
+                       <property name="text">
+                        <string>Book_Type:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_8">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_35">
+                     <item>
+                      <widget class="QLabel" name="label_43">
+                       <property name="text">
+                        <string>Book_ID:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="borrow_line_9">
+                       <property name="styleSheet">
+                        <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_41">
+               <item>
+                <widget class="QPushButton" name="add_borrow_record_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Add Record</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/plus (2).png</normaloff>:/images/plus (2).png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="view_borrows_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: #1E6FD9; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>View Borrows</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/vecteezy_eye-3d-rendering-icon-illustration_28203822.png</normaloff>:/images/vecteezy_eye-3d-rendering-icon-illustration_28203822.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="remove_borrow_record_btn">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton { 
+color: white; 
+border-radius: 8px; 
+padding: 8px 16px; 
+font-weight: bold; 
+} 
+QPushButton:hover { 
+background-color: red; 
+} 
+QPushButton:pressed { 
+background-color: #174EA6; 
+} </string>
+                 </property>
+                 <property name="text">
+                  <string>Remove Record</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="resource.qrc">
+                   <normaloff>:/images/minus.png</normaloff>:/images/minus.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>16</width>
+                   <height>16</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_26">
+               <item>
+                <widget class="QLineEdit" name="borrow_table_search">
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit{
+border: 1px solid #ccc;
+border-radius: 5px;
+}</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Search Borrow record using Borrow_ID</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="borrow_books_table">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 85, 127);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>widget</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>314</x>
+     <y>41</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>103</x>
+     <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>widget_2</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>298</x>
+     <y>52</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dashboard_btn_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dashboard_btn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>156</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>78</x>
+     <y>105</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dashboard_btn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dashboard_btn_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>129</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>132</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>books_btn_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>books_btn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>126</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>68</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>books_btn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>books_btn_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>175</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>136</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>returned_btn_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>returned_btn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>222</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>66</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>returned_btn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>returned_btn_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>242</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>borrowed_btn_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>borrowed_btn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>162</x>
+     <y>267</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>74</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>borrowed_btn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>borrowed_btn_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>283</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>141</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fines_btn_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>fines_btn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>315</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>69</x>
+     <y>362</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fines_btn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>fines_btn_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>332</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>126</x>
+     <y>314</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>transaction_btn_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>transaction_btn_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>351</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>85</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>transaction_btn_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>transaction_btn_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>88</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>208</x>
+     <y>538</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>217</x>
+     <y>645</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>525</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>76</x>
+     <y>636</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

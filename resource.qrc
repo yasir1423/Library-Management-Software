@@ -1,0 +1,27 @@
+<RCC>
+  <qresource>
+    <file>images/logout.png</file>
+    <file>images/add student.png</file>
+    <file>images/Basic_Ui_(9).jpg</file>
+    <file>images/book.png</file>
+    <file>images/delete.png</file>
+    <file>images/fine (1).png</file>
+    <file>images/fine.png</file>
+    <file>images/literacy (1).png</file>
+    <file>images/literacy.png</file>
+    <file>images/menu (1).png</file>
+    <file>images/menu (2).png</file>
+    <file>images/minus.png</file>
+    <file>images/open-book.png</file>
+    <file>images/penalty.png</file>
+    <file>images/plus (2).png</file>
+    <file>images/plus-symbol-button.png</file>
+    <file>images/profile.png</file>
+    <file>images/return.png</file>
+    <file>images/search (2).png</file>
+    <file>images/stack-of-books.png</file>
+    <file>images/vecteezy_an-open-eye-icon-isolated_55810413.png</file>
+    <file>images/vecteezy_eye-3d-rendering-icon-illustration_28203822.png</file>
+    <file>images/Webiconset-E-Commerce-Secure-payment.128.png</file>
+  </qresource>
+</RCC>
